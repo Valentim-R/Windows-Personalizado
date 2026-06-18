@@ -1,0 +1,46 @@
+{
+  "$schema": "https://raw.githubusercontent.com/LGUG2Z/komorebi/v0.1.41/schema.json",
+  "app_specific_configuration_path": "$Env:USERPROFILE/applications.json",
+  "window_hiding_behaviour": "Cloak",
+  "cross_monitor_move_behaviour": "Insert",
+  "default_workspace_padding": 5,
+  "default_container_padding": 5,
+  "border": false,
+  "border_width": 1,
+  "border_offset": -1,
+  "manage_rules": [
+    {
+      "kind": "Exe",
+      "id": "Claude.exe",
+      "matching_strategy": "Equals"
+    }
+  ],
+  "theme": {
+    "palette": "Base16",
+    "name": "Ashes",
+    "unfocused_border": "Base03",
+    "bar_accent": "Base0D"
+  },
+  "monitors": [
+    {
+      "workspaces": [
+        { "name": "I",   "layout": "Grid" },
+        { "name": "II",  "layout": "Grid" },
+        { "name": "III", "layout": "Grid" },
+        { "name": "IV",  "layout": "Grid" },
+        { "name": "V",   "layout": "Grid" },
+        { "name": "VI",  "layout": "Grid" },
+        { "name": "VII", "layout": "Grid" }
+      ]
+    },
+    {
+      "workspaces": [
+        { "name": "I",   "layout": "Rows" },
+        { "name": "II",  "layout": "Rows" },
+        { "name": "III", "layout": "Rows" },
+        { "name": "IV",  "layout": "Rows" },
+        { "name": "V",   "layout": "Rows" }
+      ]
+    }
+  ]
+}
